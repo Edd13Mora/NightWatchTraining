@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="addthematics"
+    errors="2" failures="1" hostname="" id="" package="addthematics" skipped="0"
+    tests="1" time="22.46" timestamp="">
+  
+    <testcase name="Login test" classname="addthematics" time="22.46" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;body&gt; contains text &#39;La spécialité a bien été enregistrée.&#39; in 5000ms - expected &#34;contains text &#39;La spécialité a bien été enregistrée.&#39;&#34; but got: &#34;does not contain &#39;La spécialité a bien été enregistrée.&#39;&#34; (6083ms)">    at Object.Login test (D:\My-dg-s\testing\tests\thematics\addthematics.js:15:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+
+    
+    <error message="Testing if element [0;33m&lt;body&gt;[0m contains text [0;33m&#39;La spécialité a bien été enregistrée.&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;La spécialité a bien été enregistrée.&#39;&#34;[0m but got: [0;31m&#34;does not contain &#39;La spécialité a bien été enregistrée.&#39;&#34;[0m [0;90m(6083ms)[0m" type="error"><![CDATA[
+    Error
+    at Proxy.&lt;anonymous&gt; (D:\My-dg-s\testing\node_modules\nightwatch\lib\api\index.js:145:30)
+    at Object.Login test (D:\My-dg-s\testing\tests\thematics\addthematics.js:15:17)
+    at Context.call (D:\My-dg-s\testing\node_modules\nightwatch\lib\testsuite\context.js:430:35)
+    at TestCase.run (D:\My-dg-s\testing\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (D:\My-dg-s\testing\node_modules\nightwatch\lib\testsuite\index.js:655:80)
+    at Runnable.run (D:\My-dg-s\testing\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.createRunnable (D:\My-dg-s\testing\node_modules\nightwatch\lib\testsuite\index.js:762:33)
+    at TestSuite.handleRunnable (D:\My-dg-s\testing\node_modules\nightwatch\lib\testsuite\index.js:767:33)
+    at D:\My-dg-s\testing\node_modules\nightwatch\lib\testsuite\index.js:655:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       TimeoutError: An error occurred while running .click() command on &lt;#option-1&gt;: Element &lt;option id=&#34;option-1&#34;&gt; could not be scrolled into view
+ {&#34;error&#34;:{&#34;name&#34;:&#34;ElementNotInteractableError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+       at Object.Login test (D:\My-dg-s\testing\tests\thematics\addthematics.js:13:10)
+       at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ NoSuchElementError: An error occurred while running .click() command on &lt;button[name=&#34;ajouter&#34;]&gt;: Timed out while waiting for element &#34;button[name=&#34;ajouter&#34;]&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+       at Object.Login test (D:\My-dg-s\testing\tests\thematics\addthematics.js:14:10)
+       at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
